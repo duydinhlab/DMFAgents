@@ -1,6 +1,23 @@
-# DropMicroFluidAgents (DMFAs)
+# DropMicroFluidAgents (DMFAs) 🧠🔎🌐🧑‍💻
+
+This repository accompanies the manuscript:  
+**DropMicroFluidAgents (DMFAs): Autonomous Droplet Microfluidic Research Framework Through Large Language Model Agents**  
+*Dinh-Nguyen Nguyen, Raymond Kai-Yu Tong, Ngoc-Duy Dinh*  
+Department of Biomedical Engineering, The Chinese University of Hong Kong
 
 **DropMicroFluidAgents (DMFAs)** is a novel multi-agent framework that leverages large language model (LLM) agents to automate and optimize research workflows in droplet microfluidics. It integrates scientific reasoning, machine learning, and CAD design automation into an intelligent and user-friendly system.
+
+
+▶️ [DEMO DMFAgents](https://github.com/duydinhlab/DMFAgents/blob/main/DEMO/DEMO-DMFAs.mp4)
+
+## 📬 Contact
+
+- **Prof Ngoc-Duy Dinh** (Corresponding Author)  
+  Email: ngocduydinh@cuhk.edu.hk
+  
+  Address: BME office, Room 1120, 11/F, William M.W. Mong Engineering Building, or 
+  Room 208, Ho Sin Hang Engineering Building (SHB), The Chinese University of Hong Kong, Shatin, N.T., Hong Kong
+
 
 ## 🔍 Overview
 
@@ -45,28 +62,6 @@ Evaluation includes:
 - Accuracy and F1-score comparison of LLM and agent-based systems
 - Performance across prompt strategies, embedding models, chunk sizes, and decoding parameters (top-p, top-k, temperature)
 - Human expert verification of Q&A and CAD outputs
-
-## 🧠 Citation
-
-If you use DMFAs, please cite:
-
-```
-Dinh-Nguyen Nguyen, Raymond Kai-Yu Tong, Ngoc-Duy Dinh.
-DropMicroFluidAgents: Autonomous Droplet Microfluidic Research Framework Through Large Language Model Agents.
-The Chinese University of Hong Kong, 2024.
-```
-
-## 📬 Contact
-
-- **Ngoc-Duy Dinh** (Corresponding Author)  
-  Email: ngocduydinh@cuhk.edu.hk
-
-## 🔗 GitHub
-
-Visit the project repository: [https://github.com/duydinhlab/DMFAgents](https://github.com/duydinhlab/DMFAgents)
-
-
-
 
 
 # DropMicroFluidAgents 🧠🔎🌐🧑‍💻 Scientific Mentor
@@ -240,4 +235,25 @@ Troubleshooting
 •	Streamlit UI issues: Clear browser cache or try running in an incognito/private window.
 
 •	Environment variables not loaded: Confirm your .env file is in the same directory or manually set variables in your OS environment.
+
+
+## 🔗 GitHub
+
+Visit the project repository: [https://github.com/duydinhlab/DMFAgents](https://github.com/duydinhlab/DMFAgents)
+
+
+## 🧠 Citation
+
+Please cite our work if you find this useful:
+
+```bibtex
+@article{nguyen2025dmfas,
+  title={DropMicroFluidAgents: Autonomous Droplet Microfluidic Research Framework Through Large Language Model Agents},
+  author={Nguyen, Dinh-Nguyen and Tong, Raymond Kai-Yu and Dinh, Ngoc-Duy},
+  journal={arXiv.2501.14772},
+  year={2025},
+  note={https://doi.org/10.48550/arXiv.2501.14772}
+}
+
+
 
